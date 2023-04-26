@@ -1,0 +1,308 @@
+#wrap{
+    width: 100%;
+}
+
+/* 상단 */
+#header{
+    width: 100%;
+    height: 170px;
+    margin-bottom: 15px;
+}
+#header .logo{
+    width: 100%;
+    height: 110px;
+}
+#header .logo h1{
+    font-size: 32px;
+    text-align: center;
+    line-height: 110px;
+}
+#header .nav{
+    width: 100%;
+    height: 60px;
+}
+#header .nav_area{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header .nav_area ul li{
+    float: left;
+    margin-right: 45px;
+}
+#header .nav_area ul li:last-child{
+    margin-right: 0;
+}
+#header .nav_area li a{
+    display: block;
+    font-size: 21px;
+    line-height: 33px;
+    padding: 0 3px;
+}
+#header .nav_area li a:hover{
+    background-color:rgb(34, 177, 76);
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* 메인이미지 */
+#main_img{
+    width: 100%;
+    height: 805px;
+    background: url(../images/visual.jpg) no-repeat 50% 0;
+    background-size: cover;
+}
+
+/* 콘텐츠 */  
+#contents{
+    width: 100%;
+}
+#contents #best{
+    width: 1200px;
+    height: 845px;
+    margin: 0 auto;
+    padding-bottom: 35px; /*페이지검사해서 보면 패딩이 이미지랑 겹쳐지고, 
+    padding이 들어가니까 box-sizing: border-box; 하면은 패딩이 아예 사라집니다*/
+}
+#contents #best .best_h{
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+#contents #best .best_h h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#contents #best .best_b{
+    height: 616px;
+    padding-bottom: 30px;
+}
+#contents .best_b .left{
+    float: left;
+    width: 600px;
+    height: 616px;
+    border: 1px solid #777;
+}
+#contents .best_b .left .txt_box{
+    padding: 55px 30px 55px 0;
+    box-sizing: border-box;
+}
+#contents .best_b .left h3{
+    font-size: 42px;
+    font-weight: 500;
+    float: left;
+    margin: 0 25px;
+}
+#contents .best_b .left .ttl{
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+#contents .best_b .left span{
+    float: left;
+    font-size: 20px;
+}
+#contents .best_b .left .btn{
+    float: right;
+}
+#contents .best_b .left .btn a{
+    color:rgb(34, 177, 76);
+}
+#contents .best_b .left .btn a:hover{
+    color: red;
+    transition: 0.3s;
+}
+#contents .best_b .right{
+    float: right;
+    width: 550px;
+    height: 616px;
+}
+#contents .best_b .right li{
+    height: 162px;
+    padding: 25px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #777;
+}
+#contents .best_b .right li:first-child{
+    padding-top: 0;
+    height: 132px;
+}
+#contents .best_b .right h3{
+    font-size: 42px;
+    font-weight: 500;
+    float: left;
+    margin: 0 20px;
+    line-height: 110px;
+}
+#contents .best_b .right img{
+    float: left;
+}
+#contents .best_b .right .txt_box{
+    width: 355px;
+    height: 55px;
+    float: right;
+    margin-top: 25px;
+}
+#contents .best_b .right .ttl{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+#contents .best_b .right span{
+    float: left;
+    font-size: 19px;
+}
+#contents .best_b .right .btn{
+    float: right;
+}
+#contents .best_b .right .btn a{
+    color:rgb(34, 177, 76);
+}
+#contents .best_b .right .btn a:hover{
+    color:red;
+    transition: 0.3s;
+}
+#contents #best .best_f{}
+#contents #best .best_f a{}
+
+#contents #event{
+    width: 1200px;
+    height: 760px;
+    margin: 0 auto;
+}
+#contents #event .event_h h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#contents #event .event_b{
+    height: 520px;
+}
+#contents #event .event_b > li{
+    float: left;
+    width: 370px;
+    height: 520px;
+    border: 1px solid #777;
+    margin-right: 45px;
+    box-sizing: border-box;
+}
+#contents #event .event_b li:last-child{
+    margin-right: 0;
+}
+#contents #event .event_b .txt_box{
+    width: 370px;
+    height: 170px;
+    padding: 25px 20px 30px 20px;
+    box-sizing: border-box;
+}
+#contents #event .txt_box .ttl{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#contents #event .txt_box .txt{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+#contents #event .txt_box span{
+    font-size: 21px;
+}
+#contents #event .txt_box .price{
+    float: left;
+}
+#contents #event .txt_box .btn{
+    float: right;
+}
+#contents #event .txt_box .btn a{
+    color:rgb(34, 177, 76);
+}
+#contents #event .txt_box .btn a:hover{
+    color:red;
+    transition: 0.3s;
+}
+#contents #event .event_f{
+    height: 170px;
+    text-align: center;
+    line-height: 170px;
+}
+#contents #event .event_f a{
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 24px;
+    color:rgb(34, 177, 76);
+}
+#contents #event .event_f a:hover{
+    color:red;
+    transition: 0.3s;
+}
+
+
+/* 하단 */
+#footer{
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #777;
+}
+#footer .customer{
+    width: 1200px;
+    height: 160px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+#footer .customer li{
+    float: left;
+}
+#footer .customer li h4{
+    margin-top: 55px;
+    font-size: 14px;
+}
+#footer .customer .call{
+    margin-top: 35px;
+}
+#footer .customer .first{
+    width: 300px;
+}
+#footer .customer .first h2{
+    font-size: 30px;
+}
+#footer .customer .second{
+    width: 610px;
+}
+#footer .customer .second h2 a{
+    font-size: 32px;
+}
+#footer .customer .third{
+    width: 290px;
+}
+#footer .address{
+    width: 100%;
+    margin: 0 auto;
+    padding: 35px 0;
+    border-top: 1px solid #777;
+}
+#footer .address .address_area{
+    width: 100%;
+    /* height: 170px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .address_area li{
+    float: left;
+    margin-right: 40px;
+}
+#footer .address_area li:last-child{
+    margin-right: 0;
+}
+#footer .address_area li a{
+    font-size: 14px;
+    font-style: normal;
+}
+#footer .address_area li a:hover{
+    color:rgb(34, 177, 76);
+}
+#footer .address .address_info{
+    padding-top: 22px;
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+}
